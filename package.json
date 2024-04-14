@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/marina-verkutis/homework-ajs-platforms-test/issues"
   },
-  "homepage": "https://github.com/marina-verkutis/homework-ajs-platforms-test#readme"
+  "homepage": "https://github.com/marina-verkutis/homework-ajs-platforms-test#readme",
+  "dependencies": {
+    "@marina-verkutis/homework-ajs-platforms": "^1.0.0"
+  }
 }
